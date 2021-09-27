@@ -121,3 +121,25 @@ footer{
         margin:1em;
     }
 }
+
+@media screen and (max-width: 1200px)
+    {
+        main{
+            padding: 3em 1em;
+        }
+        section,footer{
+            padding: 2.5em 5em;
+        }
+        #catalog{
+            .kolona{
+                width: 50%;
+                margin-bottom: 3em;
+            }
+        }
+        footer{
+            text-align: center;
+            adress, .map{float:none;}
+        }
+    }
+    
+
