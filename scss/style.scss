@@ -103,3 +103,21 @@ section{
             .button{display: none;}
 }
 
+footer{
+    background-color: #000;
+    padding: 5em 10em;
+    @include clearfix;
+    .logo{
+        float:none;
+        font-size: 1.5em;
+        border-bottom: 1px solid $main_red;
+    }
+    adress{
+        float: left;
+        margin:1em;
+    }
+    .map{
+        float: right;
+        margin:1em;
+    }
+}
