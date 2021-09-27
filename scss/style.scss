@@ -141,5 +141,31 @@ footer{
             adress, .map{float:none;}
         }
     }
-    
+@media screen and (max-width:800px) {
+    nav{
+        width: 100%;
+        ul{
+            li{
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+    main{
+        height: auto;
+        background-color: #000;
+        background-image: none;
+    }
+    h1{
+        width: 100%;
+        margin-top: 2em;
+    }
+    #catalog{
+        .kolona{width:100%}
+    }
+    #pricing{
+        table{display: none;}
+        .button{display: inline-block;}
+    }
+}  
 
